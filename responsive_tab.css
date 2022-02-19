@@ -1,0 +1,559 @@
+/*nav propriétés*/
+
+#nav
+{
+	margin-left: 0px;
+	margin: 0;
+}
+
+.titre
+{
+	margin-left: 25px;
+}
+
+.soustitre
+{
+	margin-left: 25px;
+}
+
+.searchbar
+{
+	margin-left: 25px;
+}
+
+/*Searchbar propriétés*/
+
+.rechercher i
+{
+	display: inline;
+}
+
+.rechercher p 
+{
+	display: none;
+}
+
+.rechercher
+{
+	position: relative;
+}
+
+.searchbar
+{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    width: 55%;
+}
+
+.ici
+{
+    border: solid #F2F2F2;
+    width: 50px;
+    height: 50px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #F2F2F2;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.rechercher
+{
+    display: flex;
+    background-color: #0065FC;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border: solid #0065FC;
+    font-weight: bold;
+    margin-left: -20px;
+}
+
+
+input
+{
+    height: 48px;
+    width: 75%;
+    border: solid #F2F2F2;
+    border-right: none;
+}
+
+input::placeholder
+{
+	font-size: 18px;
+}
+
+
+/*Filtres propriétés*/
+
+.filtre
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 160px;
+	margin-top: 40px;
+	justify-content: space-between;
+}
+
+.txtfiltre
+{
+	margin-left: auto;
+	margin-bottom: 30px;
+	margin-right: auto;
+	width: 10%;
+}
+
+.row 
+{
+	margin-left: 0;
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    height: 125px;
+    justify-content: space-between;
+    margin-top: -50px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+/*Infobulle propriétés*/
+
+.info
+{
+	margin-left: 25px;
+}
+
+/*Logement les plus populaires propriétés*/
+
+#hmarseille
+{
+	display: flex;
+	flex-direction: column;
+    width: 100%;
+}
+
+.square2
+{
+	order: 1;
+	background-color: #F2F2F2;
+    width: 100%;
+    height: 350px;
+    border-radius: 0px;
+    border: solid #F2F2F2;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+.square2 p 
+{
+    margin-left: 15px;
+}
+
+.column
+{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.square2 .flex
+{
+	width: 100%;
+}
+
+.chart
+{
+	margin-right: 30px;
+}
+
+.populaires
+{
+	flex-direction: row;
+	width: 100%;
+	height: 250px;
+}
+
+.etoiles2
+{
+    margin-top: 0px;
+}
+.lilrectangle
+{
+    border: solid white;
+    border-radius: 20px;
+    background-color: white;
+    height: 180px;
+    width: 32%;
+    border: white;
+    box-shadow: 0px 0px 12px lightgrey;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.txtpopulaires
+{
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.lilrectangle br
+{
+	display: none;
+}
+
+
+
+.lilrectangle .imgleft
+{
+    max-width: 120px;
+    height: auto;
+}
+
+.lilrectangle .imgleft2
+{
+    max-width: 120px;
+    height: auto;
+}
+
+.imgleft2
+{
+    width: 400px;
+}
+
+/*Hébergements propriétés*/
+
+.square1
+{
+    order: 2;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 575px;
+    border-radius: 0px;
+    border: solid #FFFFFF;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+.square1 p 
+{
+    margin-left: 15px;
+}
+
+.lilsquare
+
+{
+    border: solid white;
+    border-radius: 20px;
+    background-color: white;
+    height: 180px;
+    width: 32%;
+    border: white;
+    box-shadow: 0px 0px 12px lightgrey;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+}
+
+.locations
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 200px;
+}
+
+h1
+{
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+h2
+{
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.txthebergement
+{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    margin-top: 15px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+
+.lilsquare .img
+{
+    max-width: 120px;
+    height: auto;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    background-position: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+.lilsquare h2
+{
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+
+.locations2
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 200px;
+}
+
+/*Activités propriétés*/
+
+.haute
+{
+    border: solid white;
+    border-radius: 20px;
+    background-color: white;
+    height: 250px;
+    width: 95%;
+    border: white;
+    box-shadow: 0px 0px 12px lightgrey;
+    display: flex;
+    margin: auto;
+    flex-direction: row;  
+}
+
+.boxactivites .column
+{
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fort
+{
+    border: solid white;
+    border-radius: 20px;
+    background-color: white;
+    height: 180px;
+    width: 56%;
+    border: white;
+    box-shadow: 0px 0px 12px lightgrey;
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+}
+
+.fort h1
+{
+    align-self: center;
+    margin-top: 0px;
+}
+
+.iles
+{
+    border: solid white;
+    border-radius: 20px;
+    background-color: white;
+    height: 180px;
+    width: 42%;
+    border: white;
+    box-shadow: 0px 0px 12px lightgrey;
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+}
+
+.iles h1
+{
+    align-self: center;
+    margin-top: 0px;
+}
+
+.notredame
+{
+    border: solid white;
+    border-radius: 20px;
+    background-color: white;
+    height: 180px;
+    width: 42%;
+    border: white;
+    box-shadow: 0px 0px 12px lightgrey;
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+}
+
+.notredame h1
+{
+    align-self: center;
+    margin-top: 0px;
+}
+
+
+.parc
+{
+    border: solid white;
+    border-radius: 20px;
+    background-color: white;
+    height: 180px;
+    width: 56%;
+    border: white;
+    box-shadow: 0px 0px 12px lightgrey;
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+}
+
+.parc h1
+{
+    align-self: center;
+    margin-top: 0px;
+}
+
+
+.imghaute
+{
+    max-width: 85%;
+    height: auto;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.imgfort
+{
+    max-width: 85%;
+    height: auto;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    background-position: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.imgiles
+{
+    max-width: 85%;
+    height: auto;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    background-position: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.imgnotredame
+{
+    max-width: 85%;
+    height: auto;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    background-position: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.imgparc
+{
+    max-width: 85%;
+    height: auto;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    background-position: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+.boxactivites
+{
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 950px;
+}
+
+#amarseille
+{
+    margin-left: 0;
+}
+
+#amarseille p 
+{
+    margin-left: 30px;
+}
+.haute h1
+{
+    align-self: center;
+    margin-top: 0px;
+    margin-right: 15px;
+}
+
+.haute br
+{
+    display: inline;
+}
+
+/*Footer propriétés*/
+
+.ranger
+{
+    width: 95%;
+    background-color: #F2F2F2;
+}
+

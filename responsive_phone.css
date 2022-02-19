@@ -1,0 +1,496 @@
+/* Propriétés header*/
+
+#header
+{
+	flex-direction: column;
+}
+
+.logobooki
+{
+	width: 106.109px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.topright
+{
+	width: 100%;
+	justify-content: normal;
+}
+
+.hebergements:hover
+{
+    color: #0065FC;
+    border-bottom: 2px solid #0065FC;
+    border-top: none;
+}
+
+.hebergements
+{
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #F2F2F2;
+}
+
+.activites:hover
+{
+    color: #0065FC;
+    border-bottom: 2px solid #0065FC;
+    border-top: none;
+}
+
+.activites
+{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #F2F2F2;
+    width: 100%;
+}
+
+.topright a 
+{
+	width: 50%;
+}
+
+
+/*Nav propriétés*/
+
+.rechercher
+{
+    display: flex;
+    background-color: #0065FC;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border: solid #0065FC;
+    font-weight: bold;
+    margin-left: -20px;
+}
+
+
+.rechercher i
+{
+	display: inline;
+}
+
+.rechercher p 
+{
+	display: none;
+}
+
+.rechercher
+{
+	position: relative;
+}
+
+.searchbar
+{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.ici
+{
+    border: solid #F2F2F2;
+    width: 50px;
+    height: 50px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #F2F2F2;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+input
+{
+    height: 48px;
+    width: 75%;
+    border: solid #F2F2F2;
+    border-right: none;
+}
+
+input::placeholder
+{
+	font-size: 18px;
+}
+
+
+
+#nav
+{
+	margin: 0;
+	margin-top: 30px;
+}
+
+.titre
+{
+	margin-left: 24.156px;
+}
+
+.titre br
+{
+	display: inline;
+}
+
+.soustitre
+{
+	margin-left: 24.156px;
+}
+
+/*Filtres propriétés*/
+
+.filtre
+{
+	margin-left: 21.156px;
+	display: flex;
+	height: 230px;
+	width: 90%;
+	flex-direction: column;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
+.txtfiltre
+{
+	margin: 0;
+}
+
+.row 
+{
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: start;
+    margin-top: 0;
+    width: 100%;
+}
+
+.filtres
+{
+	margin-right: 20px;
+}
+
+/*Infobulle*/
+
+.txtinfo br
+{
+	display: inline;
+}
+
+.info
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+/*populaires propriétés*/
+
+.square2
+{
+	order: 1;
+	background-color: #F2F2F2;
+    width: 100%;
+    height: 700px;
+    border-radius: 0px;
+    border: solid #F2F2F2;
+    margin-top: 30px;
+    margin-left: 0px;
+
+}
+
+.populaires
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 475.50px;
+    height: 575px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#hmarseille
+{
+	flex-direction: column;
+}
+
+/*hebergements à Marseille propriétés*/
+
+.square1
+{
+	order: 2;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 0px;
+    margin-left: 0;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.lilsquare
+
+{
+    border: solid white;
+    border-radius: 20px;
+    background-color: white;
+    height: 250px;
+    width: 90%;
+    border: white;
+    box-shadow: 0px 0px 12px lightgrey;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.locations
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 800px;
+}
+
+h1
+{
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+h2
+{
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.txthebergement
+{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+}
+
+
+.img
+{
+    width: 98%;
+    height: 60%;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-position: center;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.etoiles
+{
+    display: flex;
+    margin-top: 5px;
+}
+
+.locations2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    height: 800px;
+}
+
+/*Activités propriétés*/
+
+.boxactivites
+{
+	flex-direction: column;
+	height: 1600px;
+	justify-content: space-between;
+    width: 100%;
+}
+
+.haute
+{
+        border: solid white;
+        border-radius: 20px;
+        background-color: white;
+        height: 250px;
+        width: 90%;
+        border: white;
+        box-shadow: 0px 0px 12px lightgrey;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.imghaute
+{
+    width: 100%;
+    height: 75%;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-position: center;
+}
+
+.fort
+{
+        border: solid white;
+        border-radius: 20px;
+        background-color: white;
+        height: 250px;
+        width: 90%;
+        border: white;
+        box-shadow: 0px 0px 12px lightgrey;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.imgfort
+{
+    width: 100%;
+    height: 75%;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-position: center;
+}
+
+.iles
+{
+        border: solid white;
+        border-radius: 20px;
+        background-color: white;
+        height: 250px;
+        width: 90%;
+        border: white;
+        box-shadow: 0px 0px 12px lightgrey;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.imgiles
+{
+    width: 100%;
+    height: 75%;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-position: center;
+}
+
+.notredame
+{
+        border: solid white;
+        border-radius: 20px;
+        background-color: white;
+        height: 250px;
+        width: 90%;
+        border: white;
+        box-shadow: 0px 0px 12px lightgrey;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.imgnotredame
+{
+    width: 100%;
+    height: 75%;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-position: center;
+}
+
+.parc
+{
+        border: solid white;
+        border-radius: 20px;
+        background-color: white;
+        height: 250px;
+        width: 90%;
+        border: white;
+        box-shadow: 0px 0px 12px lightgrey;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.imgparc
+{
+    width: 100%;
+    height: 75%;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-position: center;
+}
+
+#amarseille .column
+{
+	justify-content: space-between;
+	height: 520px;
+    width: 100%;
+}
+
+#amarseille
+{
+    width: 100%;
+    margin-left: 0;
+}
+
+/*Footer propriétés*/
+
+.ranger
+{
+	flex-direction: column;
+	width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer
+{
+	width: 100%;
+	background-color: #F2F2F2;
+	height: auto;
+}
